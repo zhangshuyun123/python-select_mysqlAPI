@@ -33,10 +33,10 @@ def check():
 
 def sql_result(dbname, tbname, condition, value):
     config = {
-        'host': '172.20.56.97',
-        'port': 3306,
-        'user': 'ro_all_db',
-        'passwd': 'eruij6g98_35',
+        'host': '1',
+        'port': 36,
+        'user': 'ro_db',
+        'passwd': 'e',
         'charset': 'utf8',
         'cursorclass': pymysql.cursors.DictCursor
     }
